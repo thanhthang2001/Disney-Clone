@@ -1,11 +1,17 @@
-import { Header, Slider, ProductionHouse } from "@/components";
+import {
+  Header,
+  MovieSlider,
+  ProductionHouse,
+  GenresMovieList,
+} from "@/components";
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Slider></Slider>
+      <MovieSlider></MovieSlider>
       <ProductionHouse></ProductionHouse>
+      <GenresMovieList></GenresMovieList>
     </div>
   );
 }
